@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="TravelerTest" time="0.005" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.boot.library.path" value="C:\Apps\Code\java\JDK\jdk-16\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\AUA_Stuff\Semester_8\Software Testing Fundamentals\Homeworks\Hw_3"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\AUA_Stuff\Semester_8\Software Testing Fundamentals\Homeworks\Hw_3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\bazoy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Apps\Code\java\JDK\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Apps\AMD Radeon\Catalyst\Additional\ATI.ACE\Core-Static;C:\Apps\Code\GitBash\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Apps\Code\Visual Studio 2015\Common7\IDE\Extensions\Microsoft\ADL Tools\2.2.6000.1\CppSDK\SDK\bin;C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\arm64;C:\Program Files (x86)\dotnet\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Apps\Code\java\maven\apache-maven-3.8.1\apache-maven\src\bin;C:\Users\bazoy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\bazoy\AppData\Local\GitHubDesktop\bin;C:\Users\bazoy\AppData\Local\Pandoc\;C:\Apps\Code\R\R_Markdown\PDF\miktex\bin\x64\;C:\Apps\Code\java\JDK\jdk-16\bin;C:\Users\bazoy\AppData\Local\Microsoft\WindowsApps;C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA 2020.2.2\bin;;C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\bazoy\.dotnet\tools;C:\Apps\Code\Visual Code\vsCode\Microsoft VS Code\bin;C:\Apps\Code\java\maven\apache-maven-3.8.1\bin;;."/>
+    <property name="maven.conf" value="C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="C:\AUA_Stuff\Semester_8\Software Testing Fundamentals\Homeworks\local_repo"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\bazoy"/>
+    <property name="user.timezone" value="Asia/Yerevan"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="bazoy"/>
+    <property name="java.class.path" value="C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.2.3 -s C:\AUA_Stuff\Semester_8\Software Testing Fundamentals\Homeworks\Hw_3\pom.xml -Dmaven.repo.local=C:\AUA_Stuff\Semester_8\Software Testing Fundamentals\Homeworks\local_repo install"/>
+    <property name="java.home" value="C:\Apps\Code\java\JDK\jdk-16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Apps\Code\IntelliJ\IntelliJ\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TravelerTest" name="testCheckMoney" time="0.005"/>
+</testsuite>
