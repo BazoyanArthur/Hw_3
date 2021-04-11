@@ -10,3 +10,7 @@ If the traveler fails to pay, the Gatekeeper will kill the traveler.
 
 The travelers job is just to pass through the gate. If he has enough money to meet the gateKeepers demands, he passes through the gate, if not, he will attempt to run away from the
 gateKeeper. He will always fail to run away and will die.
+
+
+Regarding TDD, I implemented the test for testSetPrices which helped me visualize the method function better. It was easier to set the time limits, and I implemented the method
+really fast. The test was basically a guide. 
