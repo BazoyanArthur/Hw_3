@@ -43,33 +43,28 @@ public class GateKeeperTest {
     @Test
     void testSetPrices(){
         // case 1 when its morning and the mood is bad(false)
-        gateKeeperTest.setDiscount(10);
-        gateKeeperTest.setMood(false);
-        gateKeeperTest.setDayTime(0);
-        assertEquals(5, gateKeeperTest.getBasePrice());
-        assertEquals(5.5, gateKeeperTest.getFinalPrice());
+        testSetPricesHelper(10, false, 0, 5, 5.5);
 
         // case 2 when its midday and the mood is bad(false)
-        gateKeeperTest.setDiscount(10);
-        gateKeeperTest.setMood(false);
-        gateKeeperTest.setDayTime(1);
-        assertEquals(10, gateKeeperTest.getBasePrice());
-        assertEquals(11, gateKeeperTest.getFinalPrice());
+        testSetPricesHelper(10, false, 1, 10, 11);
 
         // case 3 when its midday but its 4 and the mood is good(true)
-        gateKeeperTest.setDiscount(10);
-        gateKeeperTest.setMood(true);
-        gateKeeperTest.setDayTime(4);
-        assertEquals(10, gateKeeperTest.getBasePrice());
-        assertEquals(9, gateKeeperTest.getFinalPrice());
+        testSetPricesHelper(10, true, 4, 10, 9);
 
-        // case 5 when its the end of the day but and the mood is bad(false)
-        gateKeeperTest.setDiscount(10);
-        gateKeeperTest.setMood(false);
-        gateKeeperTest.setDayTime(5);
-        assertEquals(20, gateKeeperTest.getBasePrice());
-        assertEquals(22, gateKeeperTest.getFinalPrice());
+        // case 4 when its the end of the day but and the mood is bad(false)
+        testSetPricesHelper(10, false, 5, 20, 22);
+
     }
+
+    private void testSetPricesHelper(double discount, boolean mood, double dayTime,
+                                     double expectedBasePrice, double expectedFinalPrice){
+        gateKeeperTest.setDiscount(discount);
+        gateKeeperTest.setMood(mood);
+        gateKeeperTest.setDayTime(dayTime);
+        assertEquals(expectedBasePrice, gateKeeperTest.getBasePrice());
+        assertEquals(expectedFinalPrice, gateKeeperTest.getFinalPrice());
+    }
+
 
     @Test
     public void testOperationsTraveler(){
@@ -98,8 +93,4 @@ public class GateKeeperTest {
         assertTrue(gateKeeperTest.getPaidStatus());
         assertEquals(22, gateKeeperTest.getIncome());
     }
-
-
-
-
 }
